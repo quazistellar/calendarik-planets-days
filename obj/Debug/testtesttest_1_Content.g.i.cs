@@ -8,6 +8,6 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("practice_test_wpf_1.sln")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("memes.mp3")]
 
 

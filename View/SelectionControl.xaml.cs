@@ -20,19 +20,15 @@ namespace practice_test_wpf_1
     /// </summary>
     public partial class SelectionControl : UserControl
     {
-        //выбор внутри карточки
+        //внутри карточки
         private Punct ikonka;
         public SelectionControl(Punct punct)
         {
             InitializeComponent();
-
             ikonka = punct;
             NameLabel.Content = punct.name;
-            //это для иконок с пикчами
             PunctImage.Source = new BitmapImage(new Uri(punct.image, UriKind.Relative));
 
         }
-
-       
     }
 }

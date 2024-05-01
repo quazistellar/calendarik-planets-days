@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace practice_test_wpf_1
 {
 
-    //это чтобы картинки потестить
+    //это чтобы потестить как названия будут отображаться в странице с определенным днем
     public class Punct
     {
         public string name { get; set; }

@@ -21,3 +21,4 @@ C:\Users\User\source\repos\testtesttest_1\obj\Debug\View\DayInfoPage.g.cs
 C:\Users\User\source\repos\testtesttest_1\obj\Debug\View\DayInfoPage.baml
 C:\Users\User\source\repos\testtesttest_1\obj\Debug\View\SelectionControl.g.cs
 C:\Users\User\source\repos\testtesttest_1\obj\Debug\View\SelectionControl.baml
+C:\Users\User\source\repos\testtesttest_1\obj\Debug\testtesttest_1_Content.g.cs

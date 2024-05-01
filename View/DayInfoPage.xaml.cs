@@ -25,8 +25,8 @@ namespace practice_test_wpf_1
         DateTime date;
         List<Punct> puncts;
         List<DaySelect> choice_day;
-        string imagesFolder = System.IO.Path.Combine("Helpers", "Images");
 
+        string imagesFolder = System.IO.Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Helpers", "Images");
         public DayInfoPage(DateTime date)
         {
             InitializeComponent();
@@ -84,12 +84,13 @@ namespace practice_test_wpf_1
 
         private void nazad_bez_save_Click(object sender, RoutedEventArgs e)
         {
-          
             swappage.Swap(new CalendarMain(date));
         }
 
         private void nazad_save_Click(object sender, RoutedEventArgs e)
         {
+
+
             swappage.Swap(new CalendarMain(date));
         }
     }

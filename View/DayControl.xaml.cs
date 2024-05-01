@@ -26,7 +26,6 @@ namespace practice_test_wpf_1
         {
             InitializeComponent();
 
-
             Day.Content = date.Day;
 
             if (daySelect != null && daySelect.puncts.Count > 0)
